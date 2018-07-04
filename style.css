@@ -1,0 +1,106 @@
+/* ukinuti univerzalne selektore */
+
+* {
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+	font-size: 120%;
+}
+
+#glavna-slika {
+	float: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.upper-img {
+    float: left;
+}
+
+.elements-wrapper {
+    position: relative;
+}
+
+.single-element-wrapper {
+    position: absolute;
+    width:25%;
+    overflow: hidden;
+	min-height: 350px;
+}
+
+.uvodna-slika {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    left: 0;
+	width:350px;
+}
+
+.slika-prva {
+	background-image: url(images/prva.png);
+}
+
+.slika-druga {
+	background-image: url(images/druga.png);
+}
+
+.slika-treca {
+    background-image: url(images/treca.png);
+}
+
+.slika-cetvrta {
+	background-image: url(images/cetvrta.png);
+	text-align: right;
+}
+
+/* HELPERS */
+
+.abs {
+	position: absolute;
+}
+
+.img-responsive {
+    width:100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.margin-left-big {
+	margin-left:200px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.show-hover {
+	display:none;
+}
+
+.single-element-wrapper:hover .show-hover {
+	display:inline-block;
+}
+
+
+.slika-cetvrta img {
+	float:left;
+}
